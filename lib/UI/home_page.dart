@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Container(
                       margin: EdgeInsets.all(10.0),
-                      child: Text('signout - $signout ?? none'),
+                      child: Text('signout - ${signout ?? ''}'),
                     ),
                   ],
                 ));
